@@ -1,0 +1,96 @@
+/* Filename: App.css */
+@import url("https://font.googleapis.com/css2?family-Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.App {
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid rgb(108, 133, 133);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(105, 165, 221, 0.8);
+    color: rgb(33, 29, 59);
+    padding: 30px 40px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.label {
+    display: block;
+    font-size: larger;
+    color: rgb(2, 6, 39);
+    padding: 5px;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* border: none; */
+    outline: none;
+    border: 2px solid rgb(108, 133, 133);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    padding: 20px 45px 20px 20px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: rgb(108, 133, 133);
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 44, 80, 0.6);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(17, 12, 12, 0.541);
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    display: block;
+    background-color: rgb(241, 35, 35);
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+
+.success {
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(226, 226, 226);
+    /* background-image: url(/login\ project/images/backgroundimage2.jpg); */
+    background-size: cover;
+    background-position: center;
+
+}
