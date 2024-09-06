@@ -1,6 +1,7 @@
 // Filename - Signup.js
 import React from "react";
 import { useState } from "react";
+import { Link } from "react";
 import "./signup.css";
 
 export default function Signup() {
@@ -111,6 +112,8 @@ export default function Signup() {
                 <button onClick={handleSubmit} className="btn" type="submit">
                     Submit
                 </button>
+
+                <p> already have an account ? </p> <Link href="/Login" > Log in </Link>
             </form>
         </div>
     );
