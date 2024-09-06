@@ -52,7 +52,7 @@ export default function Signup() {
                     display: submitted ? "" : "none",
                 }}
             >
-                <h1 style={{fontSize:"23px"}}>User {name} successfully registered!!</h1>
+                <h1 style={{fontSize:"16px" , textAlign:"center" , paddingTop:"5px"}}>User {name} successfully registered!!</h1>
             </div>
         );
     };
