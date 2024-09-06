@@ -1,7 +1,7 @@
 // Filename - Signup.js
 import React from "react";
 import { useState } from "react";
-import { Link } from "react";
+// import { Link } from "react";
 import "./signup.css";
 
 export default function Signup() {
@@ -52,7 +52,7 @@ export default function Signup() {
                     display: submitted ? "" : "none",
                 }}
             >
-                <h1>User {name} successfully registered!!</h1>
+                <h1 style={{fontSize:"23px"}}>User {name} successfully registered!!</h1>
             </div>
         );
     };
@@ -66,12 +66,14 @@ export default function Signup() {
                     display: error ? "" : "none",
                 }}
             >
-                <h1>Please enter all the fields</h1>
+                <h1 style={{fontSize:"23px"}}>Please enter all the fields</h1>
             </div>
         );
     };
 
     return (
+
+        <>
         <div className="form">
             <div>
                 <h1 style={{textAlign:"center"}}>Sign up</h1>
@@ -113,8 +115,9 @@ export default function Signup() {
                     Submit
                 </button>
 
-                <p> already have an account ? </p> <Link href="/Login" > Log in </Link>
             </form>
+
         </div>
+        </>
     );
 }

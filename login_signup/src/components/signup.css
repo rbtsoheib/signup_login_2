@@ -56,11 +56,11 @@
 
 .error {
     display: block;
-    background-color: rgb(241, 35, 35);
+    background-color: rgb(182, 47, 47);
     color: white;
     width: fit-content;
-    height: 50px;
-    padding: 5px;
+    height: 30px;
+    padding: 0px;
 }
 
 .success {
@@ -68,8 +68,8 @@
     background-color: lightblue;
     color: black;
     width: fit-content;
-    height: 50px;
-    padding: 5px;
+    height: 30px;
+    padding: 0px;
 }
 
 
